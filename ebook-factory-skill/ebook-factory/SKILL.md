@@ -680,3 +680,37 @@ Before delivering the final output, verify:
 - `scripts/build_epub.py` — EPUB assembly from HTML+images
 - `scripts/calibre_export.py` — Calibre conversion wrapper
 - `scripts/validate_book.py` — Pre-submission quality checks
+
+
+## Nouveaux templates 99school
+
+### Supports graphiques
+- `templates/carousel.md` - Carousel LinkedIn/Instagram (5-10 slides coherentes)
+- `templates/banner.md` - Bannieres reseaux sociaux (LinkedIn profil/entreprise, YouTube, Facebook)
+- `templates/thumbnail.md` - Miniatures YouTube, Stories, Posts (16:9, 9:16, 4:3, 1:1)
+
+### Livres visuels specifiques
+- `templates/guide_formation_ia.md` - Guide IA pour non-techniciens, TPE, artisans, associations
+- `templates/workbook_atelier.md` - Cahier d'exercices pour ateliers et formations
+- `templates/mini_bd_marketing.md` - Mini-BD marketing pour lead magnets et acquisition
+
+## Declencheurs additionnels 99school
+
+Ajouter aux declencheurs existants :
+"carousel", "slides LinkedIn", "banniere", "banniere YouTube", "couverture LinkedIn",
+"miniature", "thumbnail", "vignette", "cover YouTube", "guide formation",
+"cahier d'exercices", "workbook", "mini BD", "bd marketing", "lead magnet visuel"
+
+## Regle GPT Image 2 - RAPPEL CRITIQUE
+
+UTILISER EXCLUSIVEMENT GPT Image 2 pour TOUTE generation d'image.
+Si l'agent semble utiliser un autre modele ou genere des images de mauvaise qualite :
+1. Stopper immediatement la generation
+2. Reconfirmer : utiliser image_gen de Codex configure sur GPT Image 2
+3. Regenerer les images ratees
+Ne JAMAIS utiliser DALL-E, Midjourney, Stable Diffusion ou autre.
+
+## Palette de marque 99school (defaut si non specifie)
+- Fond : #111111 (noir)
+- Accent : #FCA311 (orange)
+- Texte : #FFFFFF (blanc)
